@@ -3,8 +3,8 @@
 :root { --black: black; --white: white; --gray: gray; --light-gray: #f2f2f2; }
 html { font-size: 10px; }
 body { font-size: 1.6rem; font-family: Montserrat, sans-serif; }
-h1, h2, h3 { text-transform: uppercase; }
-h1 { font-size: 4rem; }
+h1, h2, h3 { text-transform: uppercase; font-weight: 600; }
+h1 { font-size: 4rem; letter-spacing: 3px; }
 h2 { font-size: 3rem; }
 h3 { font-size: 2rem; }
 a, p, span, button, article { font-size: 1.6rem; }
@@ -13,19 +13,25 @@ li { list-style: none; }
 ul { margin: 0px; padding: 0px; }
 .container-lg { max-width: 1280px; }
 .container { max-width: 1140px; }
+.btn { text-transform: uppercase; transition: all 0.3s ease 0s; }
+.btn:focus { box-shadow: none; }
+.btn-outline-secondary:hover { background: var(--black); color: var(--white)  !important; }
 header { height: 800px; background: black; padding-top: 2rem; }
 a.navbar-brand h1 { text-transform: uppercase; font-weight: 700; }
 ul.navbar-nav { justify-content: flex-end; width: 100%; }
 ul.navbar-nav li { padding-left: 9rem; text-transform: uppercase; letter-spacing: 2px; }
 nav.navbar { padding: 0.5rem 0px; border-top: 1px solid var(--gray); border-bottom: 1px solid var(--gray); background: black !important; }
 a.navbar-brand img { width: 80%; }
+
+
+
 .hero_container-wrapper { display: flex; flex-direction: column; align-items: center; margin-top: 9rem; }
 .hero_container-wrapper .header_title h1 { font-size: 6rem; font-weight: bold; text-align: center; letter-spacing: 8px; }
-.header_title h2 { font-size: 5rem; letter-spacing: 8px; margin-bottom: 7rem; font-weight: 400; }
+.header_title h2 { font-size: 5rem; letter-spacing: 8px; margin-bottom: 7rem; font-weight: 400; color: var(--light-gray); }
 .top_email_field { width: 655px; justify-content: space-around; align-items: center; }
 .top_email_field .col-auto:first-child { width: 63%; }
 .top_email_field .email { padding: 0.7rem 2rem; background: transparent; color: var(--white); font-size: 1.4rem !important; }
-.top_email_field button {padding: 0.8rem 5.5rem;text-transform: uppercase;font-size: 1.4rem !important;}
+.top_email_field button { padding: 0.8rem 5.5rem; text-transform: uppercase; font-size: 1.4rem !important; }
 .top_email_field button, .top_email_field .email { font-size: 1.6rem; }
 a.navbar-brand h1, ul.navbar-nav li a.nav-link, .header_title { color: var(--white)  !important; }
 .form-control:focus { box-shadow: none; border-color: var(--white); }
@@ -38,3 +44,35 @@ ul.navbar-nav li a { font-size: 1.4rem; }
 .our_word_wrap span { position: relative; }
 .our_word_wrap span::after { content: ""; position: absolute; width: 100px; height: 2px; background: rgb(106, 106, 106); left: 50%; transform: translateX(-50%); top: -29px; }
 .our_word_wrap h2 { text-transform: uppercase; letter-spacing: 4px; line-height: 40px; font-weight: 400; }
+.tranasparency_main_wrapper { display: flex; align-items: center; }
+.header_line { position: relative; }
+.header_line::after { position: absolute; content: ""; top: -30px; width: 50px; height: 1px; background: var(--black); }
+.tranasparency_desc_wrap { width: 54%; }
+.tranasparency_desc_wrap h1 { margin-bottom: 3rem; }
+.peach_of_mind_desc .btn, .tranasparency_desc_wrap .btn { padding: 1rem 3.5rem; color: var(--black); }
+.tranasparency_desc_wrap p { margin-bottom: 3rem; }
+section#full_tranasparency { margin: 9rem 0px; }
+.peach_of_mind_desc .btn { background: var(--black); color: var(--white); border: 1px solid var(--white); }
+.peach_of_mind_main_wrapper {display: flex;align-items: center;}
+.peace_of_mind_desc_wrap {width: 60%;padding-left: 4rem;}
+.peach_of_mind_desc { height: 100%; }
+section#peach_of_mind { background: var(--black); }
+.peace_of_mind_desc_wrap { color: var(--white); }
+.peace_of_mind_desc_wrap p {margin: 3rem 0px;}
+.peace_of_mind_desc_wrap .header_line::after { background: var(--white); }
+.peach_of_mind_img img {
+    width: 100%;
+}
+.peach_of_mind_main_wrapper.container-lg {
+    max-width: 1600px;
+}
+
+.peace_of_mind_desc_wrap .btn-light:hover{
+    background: var(--white);
+    color: var(--black);
+}
+.top_email_field .btn-light:hover{
+    background: var(--black);
+    color: var(--white);
+    border-color:var(--white) ;
+}
