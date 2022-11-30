@@ -27,8 +27,7 @@ font-size: 4rem;
    }
    #our_word {
     height: 275px;
-    margin-top: 33rem;
-    
+    margin-top: 28rem;
 }
 .tranasparency_desc_wrap {
     width: 70%;
@@ -101,7 +100,13 @@ ul.navbar-nav {
     display: flex;
     justify-content: center;
 }
-
+ul.navbar-nav li {
+    padding-left: 0rem;
+    
+}
+nav.navbar{
+    padding: 0;
+}
 
 
 }
@@ -125,7 +130,7 @@ ul.navbar-nav {
     font-size: 1.8rem;
    }
    .header_title h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     letter-spacing: 4px;
     margin-bottom: 4rem;
@@ -157,7 +162,7 @@ header {
 }
 #our_word {
     height: 302px;
-    margin-top: 24rem;
+    margin-top: 17rem;
 }
 .our_word_wrap h2 {
     letter-spacing: 3px;
