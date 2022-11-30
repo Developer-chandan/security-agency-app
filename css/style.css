@@ -25,7 +25,7 @@ a.navbar-brand img { width: 80%; }
 
 
 
-.hero_container-wrapper { display: flex; flex-direction: column; align-items: center; margin-top: 9rem; }
+.hero_container-wrapper {display: flex;flex-direction: column;align-items: center;margin-top: 19rem;}
 .hero_container-wrapper .header_title h1 { font-size: 6rem; font-weight: bold; text-align: center; letter-spacing: 8px; }
 .header_title h2 { font-size: 5rem; letter-spacing: 8px; margin-bottom: 7rem; font-weight: 400; color: var(--light-gray); }
 .top_email_field { width: 655px; justify-content: space-around; align-items: center; }
@@ -76,3 +76,16 @@ section#peach_of_mind { background: var(--black); }
     color: var(--white);
     border-color:var(--white) ;
 }
+.navbar{
+    transition: all .3s;
+}
+.nav_scrolled{
+    top: 0;
+    border-top: none !important;
+}
+#peach_of_mind{
+    margin-bottom: 10rem;
+}
+/* nav.navbar.navbar-expand-lg.fixed-top .hero_container-wrapper{
+    margin-top: 15rem;
+} */

@@ -1,0 +1,182 @@
+@media(max-width:992px){
+    .container,
+    .container-lg{
+        width: 100%;
+    }
+   h1{
+    font-size: 3rem;
+   }
+   h2{
+    font-size: 2.2rem;
+   }
+   h3{
+    font-size: 1.8rem;
+   }
+   .header_title h2{
+    font-size: 3rem;
+    text-align: center;
+   }
+   .hero_container-wrapper .header_title h1{
+font-size: 4rem;
+   }
+   .top_email_field{
+    width: 100%;
+   }
+   header{
+    height: 700px;
+   }
+   #our_word {
+    height: 275px;
+    margin-top: 33rem;
+    
+}
+.tranasparency_desc_wrap {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.tranasparency_main_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.peach_of_mind_main_wrapper {
+    flex-direction: column-reverse;
+}
+
+
+.peach_of_mind_img img {
+    border-radius: 5px;
+}
+
+.peace_of_mind_desc_wrap {
+    width: 80%;
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.peach_of_mind_desc {
+    height: 100%;
+    margin: 4rem 0;
+    margin-bottom: 7rem;
+}
+
+.peace_of_mind_desc_wrap p {
+    margin: 2rem 0px;
+}
+
+
+.header_line::after {
+    position: absolute;
+    content: "";
+    top: -15px;
+    width: 80px;
+    height: 1px;
+    left: 0;
+    transform: translateX(-50%);
+    background: var(--black);
+}
+.our_word_wrap {
+    text-align: center;
+    padding-top: 11rem;
+}
+.tranasparency_desc_wrap h1 {
+    margin-bottom: 2rem;
+}
+
+section#peach_of_mind {
+    padding: 5rem 0;
+    padding-bottom: 10rem;
+}
+ul.navbar-nav {
+   
+    text-align: center;
+}
+
+.tranasparency_desc{
+    margin-bottom: 4rem;
+}
+.tranasparency_img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+}
+
+@media(max-width:768px){
+    .our_word_wrap h2 br{
+        display: none;
+    }
+}
+
+@media(max-width:575px){
+
+
+   h1{
+    font-size: 3rem;
+   }
+   h2{
+    font-size: 2.2rem;
+   }
+   h3{
+    font-size: 1.8rem;
+   }
+   .header_title h2{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 4rem;
+   }
+
+   .hero_container-wrapper .header_title h1 {
+    font-size: 3rem;
+}
+.top_email_field .col-auto:first-child {
+    width: 93%;
+    margin-bottom: .5rem;
+}
+header {
+    height: 586px;
+}
+.hero_mobile_screen img {
+    width: 96%;
+}
+.hero_mobile_screen {
+    margin-top: 9rem;
+}
+.hero_container-wrapper {
+    margin-top: 18rem;
+}
+
+.peach_of_mind_img img {
+    width: 100%;
+    border-radius: 5px;
+}
+#our_word {
+    height: 302px;
+    margin-top: 24rem;
+}
+.our_word_wrap h2 {
+    letter-spacing: 3px;
+    line-height: 33px;
+    font-size: 2rem;
+}
+.tranasparency_desc_wrap {
+    width: 93%;
+}
+
+.header_line::after {
+    position: absolute;
+    content: "";
+    top: -24px;
+    width: 50px;
+    height: 1px;
+}
+
+
+
+
+}
